@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remove repos -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <remove-project name="LineageOS/android_packages_services_Telecomm" />
+
+  <!-- mod repo -->
+
+  <project name="kapiljhajhria/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/android_packages_apps_CustomSettings" path="packages/apps/CustomSettings" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/android_vendor_lineage" path="vendor/lineage" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/android_system_core" path="system/core" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/android_lineage-sdk" path="lineage-sdk" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="github" revision="lineage-16.0" />
+ 
+  <!-- Lineage dependencies -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+ 
+  <!-- Xiaomi Redmi Note5/5pro -->
+  <project name="kapiljhajhria/android_vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/android_kernel_xiaomi_whyred" path="kernel/xiaomi/whyred" remote="github" revision="mkp" />
+  <project name="kapiljhajhria/android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-16.0" />
+  <project name="kapiljhajhria/vendor_MiuiCamera" path="vendor/MiuiCamera" remote="github" revision="pie-whyred" />
+  
+  
+  
+  <!-- //  <project path="vendor/xiaomi/Gcam" // -->
+<!--  //name="kapiljhajhria/vendor_xiaomi_gcam" remote="gitlab" revision="master"/> // -->
+   <!--  <project path="prebuilts/clang/host/linux-x86/clang-8.0.7" name="Bladeyy/prebuilts_clang" 
+remote="github" revision="clang-8.0.7"/>  -->
+
+<!-- FDE -->
+ <!--   <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" 
+remote="github" revision="lineage-16.0"/>  -->
+  
+
+</manifest>
